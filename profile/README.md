@@ -1,5 +1,7 @@
 # VPN9 — True Privacy. Zero Logs. No Compromises.
 
+**Website:** [vpn9.com](https://vpn9.com)
+
 Privacy is a fundamental human right. It protects your life, identity, and data.  
 Free from surveillance and censorship. Free from business models that sell your behavior.  
 Free from compromise.
@@ -14,6 +16,3 @@ Open-source components of the VPN9 platform:
 - **[vpn9-app](https://github.com/vpn9labs/vpn9-app)** — Tauri + Rust client for desktop and mobile. Kill-switch, split tunneling, strict leak protection, zero connection logs.
 - **[vpn9-service](https://github.com/vpn9labs/vpn9-service)** — Rust control plane and node agent over gRPC. Session issuance, policy, node orchestration. Zero-log by construction.
 
-
-
-[ Client ] vpn9-app ──► [ API ] vpn9-portal ──► [ Control ] vpn9-service ──► [ Nodes ]
