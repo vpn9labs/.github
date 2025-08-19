@@ -15,4 +15,4 @@ Open-source components of the VPN9 platform:
 - **[vpn9-portal](https://github.com/vpn9labs/vpn9-portal)** — Rails portal: website, admin, and public API for anonymous accounts, crypto payments, and client bootstrap.
 - **[vpn9-app](https://github.com/vpn9labs/vpn9-app)** — Tauri + Rust client for desktop and mobile. Kill-switch, split tunneling, strict leak protection, zero connection logs.
 - **[vpn9-service](https://github.com/vpn9labs/vpn9-service)** — Rust control plane and node agent over gRPC. Session issuance, policy, node orchestration. Zero-log by construction.
-
+- **[vpn9-dns-leak-tool](https://github.com/vpn9labs/vpn9-dns-leak-tool)** - DNS leak detection tool built with Rust, providing comprehensive DNS leak testing capabilities with a RESTful API. 
