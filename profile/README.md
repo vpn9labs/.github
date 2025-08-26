@@ -1,5 +1,7 @@
 # VPN9 — True Privacy. Zero Logs. No Compromises.
 
+**VPN9 Labs**
+
 **Website:** [vpn9.com](https://vpn9.com)
 
 Privacy is a fundamental human right. It protects your life, identity, and data.  
@@ -8,11 +10,20 @@ Free from compromise.
 
 ---
 
-## What you will find here
+## Start here
 
-Open-source components of the VPN9 platform:
+- **[Open‑source VPN client](https://github.com/vpn9labs/vpn9-app)** — desktop and mobile via Tauri + Rust. Kill‑switch, split tunneling, strict leak protection, zero connection logs.
+- **[Rust WireGuard control plane](https://github.com/vpn9labs/vpn9-service)** — gRPC control plane and node agent. Session issuance, policy enforcement, node orchestration. Zero‑log by construction.
+- **[Rails portal & public API](https://github.com/vpn9labs/vpn9-portal)** — website, admin, anonymous accounts, crypto payments, client bootstrap.
+- **[DNS leak detection tool](https://github.com/vpn9labs/vpn9-dns-leak-tool)** — Rust + REST API for comprehensive DNS leak testing.
 
-- **[vpn9-portal](https://github.com/vpn9labs/vpn9-portal)** — Rails portal: website, admin, and public API for anonymous accounts, crypto payments, and client bootstrap.
-- **[vpn9-app](https://github.com/vpn9labs/vpn9-app)** — Tauri + Rust client for desktop and mobile. Kill-switch, split tunneling, strict leak protection, zero connection logs.
-- **[vpn9-service](https://github.com/vpn9labs/vpn9-service)** — Rust control plane and node agent over gRPC. Session issuance, policy, node orchestration. Zero-log by construction.
-- **[vpn9-dns-leak-tool](https://github.com/vpn9labs/vpn9-dns-leak-tool)** - DNS leak detection tool built with Rust, providing comprehensive DNS leak testing capabilities with a RESTful API. 
+## Architecture & principles
+
+- WireGuard at the core; Rust across control plane and client.
+- Zero‑logs by design; no analytics or behavioral tracking.
+- Defensive defaults: kill‑switch, split tunneling, strict DNS/IPv6/WebRTC leak protection.
+- Anonymous accounts and crypto payments supported.
+
+## Contributing
+
+Issues and PRs are welcome in the repositories above. Priority areas: client UX, protocol hardening, telemetry‑free diagnostics, platform coverage.
